@@ -37,7 +37,7 @@
 
 /* General styles */
 
-/* endable this to add smooth scrolling */
+/* enable this to add smooth scrolling */
 /* html {
     scroll-behavior: smooth;
 } */
@@ -395,8 +395,9 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    /* background: var(--clr-accent); */
     overflow: hidden;
+    margin: 1%;
 }
 
 .portfolio__img {
@@ -413,7 +414,7 @@ header {
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
-    opacity: .5;
+    /* opacity: .5; */
 }
 
 
